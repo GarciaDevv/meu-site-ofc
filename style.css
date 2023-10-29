@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style:none;
+    text-align: initial;
+} 
+h1{
+    color: #87CEFA;
+    text-align: center;
+}
+
+body{ background-color:#FFFACD ;
+    
+}
+
+header{
+    position: fixed;
+    width:100%;
+    top: 0;
+    right: 0;
+   z-index: 1000;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 30px 8%;
+}
+header i:hover{
+    color: #000000;
+}
+.logo{ display: flex;
+    align-items: center;
+    color: #87CEFA;
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+.logo i{color:#87CEFA;
+    margin-right:5px;
+    
+}
+.navegaçao{ display: flex;
+
+}
+.navegaçao a{
+    color:#87CEFA ;
+    font-size: 26px;
+    font-weight: 500;
+    margin: 30px;
+    transition: a .55s ease;
+ 
+
+}
+div i{ color:#87CEFA ;
+}
+.navegaçao a:hover{
+    color:#000000;
+}
+
+.header-icons{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+   
+
+}
+#menu{ font-size: 35px;
+    font-weight: 1001;
+    cursor: pointer;
+
+}
+.header-icons i {
+    margin: 28px;
+     font-size: 30px;
+     cursor: pointer;
+     transition: all ,5 ease;
+}
+.header-icons i:hover{
+    color: #000000;
+    transform: translateY(+5px);
+}
+
+
+section img{
+    width:60vh;
+ height:60vh ; 
+ border-radius: 60px;
+ border-width: 60px;
+}
+.home{
+    display: flex;
+    justify-content: center;
+}
